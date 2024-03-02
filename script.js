@@ -5,11 +5,11 @@
 let numbersMasiv = [10, 50, 6, 7, 8, 11, 6, 3, 9];
 
 function numbersSum(numbers) {
-  let sum = 0;
-  for (let n = 0; n < numbers.length; n++) {
-    sum += numbers[n];
-  }
-  return sum;
+    let sum = 0;
+    for (let n = 0; n < numbers.length; n++) {
+        sum += numbers[n];
+    }
+    return sum;
 }
 
 let result = numbersSum(numbersMasiv);
@@ -29,7 +29,7 @@ let user = {
 function printName(user) {
     if (user.isloggedin) {
         return user.firstname + user.lastname;
-    } 
+    }
     else {
         return false;
     }
@@ -70,12 +70,11 @@ checkNum(46);
 //5. [1,2,3,4,5]-dan for ციკლის საშუალებით მიიღეთ reverse ვერსია, ანუ 5,4,3,2,1
 
 let array5 = [1, 2, 3, 4, 5];
-let reverseArray5 = [];
+
 for (let i = array5.length - 1; i >= 0; i--) {
-    reverseArray5.push(array5[i]);
+    console.log(array5[i]);
 }
 
-console.log(reverseArray5);
 
 
 //6.ფუნქციის საშუალებით გამოთვალეთ იუსერის ასაკი. თუ გადაცემული ასაკი მეტია 18- ზე დააბრუნეთ - სრულწლოვანი, თუ ნაკელებია  დააბრუნეთ არასწულწლოვანი. 
